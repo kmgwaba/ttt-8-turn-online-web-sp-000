@@ -1,6 +1,6 @@
 def display_board(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-end 
+end
 
 def valid_move?(board, index)
   if position_taken?(board, index)
@@ -25,3 +25,4 @@ def turn(board)
 end
 
 def move?(board, index)
+end 
