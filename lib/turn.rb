@@ -32,6 +32,6 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-def move?(board, index, currentplayer = "X")
-  board[index] = currentplayer 
+def move(board, index, currentplayer = "X")
+  board[index] = currentplayer
 end
